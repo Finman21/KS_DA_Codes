@@ -1,0 +1,19 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Arduino IDE (v2) / CLI / temporäre Build-Artefakte
+.build/
+build/
+out/
+*.tmp
+*.bak
+
+# VS Code / Arduino extensions (falls du mal damit arbeitest)
+.vscode/
+*.code-workspace
+
+# Falls du sensible Dateien verwendest (optional)
+.env
+secrets.h
